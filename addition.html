@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            padding-left: 25%;
+            padding-right: 25%;
+            padding-top: 50px;
+        }
+        .container1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container2 {
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function calculateSum() {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var sum = num1 + num2;
+            document.getElementById('result').innerText = 'Sum: ' + sum;
+        }
+    </script>
+</head>
+<body>
+    <div class="container1">
+        <h2><a href="index.html">Calculator</a>/Addition</h2>
+        <div>version 0.1</div>
+    </div>
+    <hr>
+    <div class="container2">
+        <label for="num1">Enter first number:</label>
+        <input id="num1"><br><br>
+        <label for="num2">Enter second number:</label>
+        <input id="num2"><br><br>
+        <button onclick="calculateSum()">Calculate Sum</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
