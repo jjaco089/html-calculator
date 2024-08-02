@@ -20,6 +20,14 @@
             text-align: center;
         }
     </style>
+    <script>
+        function main() {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var product = num1 * num2;
+            document.getElementById('result').innerText = 'Product: ' + product;
+        }
+    </script>
 </head>
 <body>
     <div class="container1">
@@ -28,7 +36,12 @@
     </div>
     <hr>
     <div class="container2">
-        Coming soon
+        <label for="num1">Enter first number:</label>
+        <input id="num1"><br><br>
+        <label for="num2">Enter second number:</label>
+        <input id="num2"><br><br>
+        <button onclick="main()">Calculate Product</button>
+        <p id="result"></p>
     </div>
 </body>
 </html>
