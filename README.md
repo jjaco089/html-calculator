@@ -1,5 +1,18 @@
 # HTML Calculator
 
-A calculator built using vanilla HTML, CSS, and JavaScript.
+## Description
+This is a simple HTML calculator project created to practice Continuous Integration (CI) and Continuous Deployment (CD) using GitHub. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-The app is now live at https://jjaco089.github.io/html-calculator/
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Run this project
+- Click here: https://jjaco089.github.io/html-calculator/ 
